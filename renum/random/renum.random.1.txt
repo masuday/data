@@ -1,0 +1,40 @@
+# parameter file for renumf90
+# additional random effects with 1 trait
+DATAFILE
+ data1 
+TRAITS
+ 4
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+  1.0
+EFFECT
+ 2 cross alpha
+EFFECT
+ 8 cov
+#
+# the first random effect
+#
+EFFECT
+ 1 cross alpha
+RANDOM
+ animal 
+FILE
+ ped1 
+FILE_POS
+ 1 2 3 0 0 
+PED_DEPTH
+ 3
+(CO)VARIANCES
+  0.65
+#
+# an additional random effect
+#
+EFFECT
+ 3 cross alpha
+RANDOM
+ diagonal
+(CO)VARIANCES
+  0.26

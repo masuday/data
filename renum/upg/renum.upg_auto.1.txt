@@ -1,0 +1,35 @@
+# parameter file for renumf90
+# animal model with 4 traits
+DATAFILE
+ data1 
+TRAITS
+ 4
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+  1.0
+EFFECT
+ 2 cross alpha
+EFFECT
+ 3 cross alpha
+EFFECT
+ 8 cov
+EFFECT
+ 1 cross alpha
+RANDOM
+ animal 
+FILE
+ ped2
+FILE_POS
+ 1 2 3 0 4
+PED_DEPTH
+ 3
+GEN_INT
+ 1 2 4
+UPG_TYPE
+ yob
+ 2002 2004
+(CO)VARIANCES
+  0.65

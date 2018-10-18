@@ -1,0 +1,38 @@
+# parameter file for renumf90
+# single-step animal model with 4 traits
+DATAFILE
+ data1 
+TRAITS
+ 4 5 6 7
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+  1.0  0.6 -0.4 -0.1
+  0.6  2.1  0.7  0.5
+ -0.4  0.7  1.5  0.8
+ -0.1  0.5  0.8  2.0
+EFFECT
+ 2 2 2 2 cross alpha
+EFFECT
+ 3 3 3 3 cross alpha
+EFFECT
+ 8 8 8 8 cov
+EFFECT
+ 1 1 1 1 cross alpha
+RANDOM
+ animal 
+FILE
+ ped1 
+FILE_POS
+ 1 2 3 0 0 
+SNP_FILE
+ snp1
+PED_DEPTH
+ 3
+(CO)VARIANCES
+  0.65   0.39   -0.26   -0.065
+  0.39   1.365   0.455   0.325
+ -0.26   0.455   0.975   0.52
+ -0.065  0.325   0.52    1.3

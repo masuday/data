@@ -1,0 +1,66 @@
+# parameter file for renumf90
+# animal model with 4 traits
+DATAFILE
+ datamltdm
+TRAITS
+ 4
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+  1.0
+EFFECT
+ 2 cross alpha
+#
+# fixed regression:
+#  covariates (position 8) nested within the class (position 3)
+#
+EFFECT
+ 8 cov
+NESTED
+ 3 alpha
+EFFECT
+ 1 cross alpha
+RANDOM
+ animal 
+OPTIONAL
+ pe
+FILE
+ ped1 
+FILE_POS
+ 1 2 3 0 0 
+PED_DEPTH
+ 3
+RANDOM_REGRESSION
+ data
+# First lactation  = 11 12 13
+# Second lactation = 14 15 16
+RR_POSITION
+ 11 12 13 14 15 16
+#
+# Order:
+#          First    Second
+#          11 12 13 14 15 16
+#          a0 a1 a2 a1 a2 a3
+#       a0  *  *  *  *  *  *
+#       a1  *  *  *  *  *  *
+#       a2  *  *  *  *  *  *
+#       a0  *  *  *  *  *  *
+#       a1  *  *  *  *  *  *
+#       a2  *  *  *  *  *  *
+#
+(CO)VARIANCES
+ 0.80325   0.0702    0.0351    0.200813  0.01755   0.008775
+ 0.0702    0.5751    0.1404    0.01755   0.143775  0.0351
+ 0.0351    0.0702    0.6102    0.008775  0.01755   0.15255
+ 0.200813  0.01755   0.008775  0.80325   0.0702    0.0351
+ 0.01755   0.143775  0.0351    0.0702    0.5751    0.1404
+ 0.008775  0.01755   0.15255   0.0351    0.0702    0.6102
+(CO)VARIANCES_PE
+ 0.3575    0.042    0.021    0.089375  0.0105   0.00525
+ 0.042     0.221    0.084    0.0105    0.05525  0.021
+ 0.021     0.042    0.242    0.00525   0.0105   0.0605
+ 0.089375  0.0105   0.00525  0.3575    0.042    0.021
+ 0.0105    0.05525  0.021    0.042     0.221    0.084
+ 0.00525   0.0105   0.0605   0.021     0.042    0.242
