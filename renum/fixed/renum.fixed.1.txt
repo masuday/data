@@ -1,5 +1,5 @@
 # parameter file for renumf90
-# fixed effect model with 1 traits
+# fixed effect model with 1 trait
 DATAFILE
 data1 
 TRAITS
