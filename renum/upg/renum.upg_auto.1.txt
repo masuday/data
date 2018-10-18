@@ -1,5 +1,5 @@
 # parameter file for renumf90
-# animal model with 4 traits
+# animal model with 1 traits
 DATAFILE
  data1 
 TRAITS
