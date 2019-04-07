@@ -1,0 +1,41 @@
+# parameter file for renumf90
+# direct-maternal model with 1 trait
+DATAFILE
+ data1 
+TRAITS
+ 4
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+  1.0
+EFFECT
+ 2 cross alpha
+EFFECT
+ 3 cross alpha
+EFFECT
+ 8 cov
+EFFECT
+ 1 cross alpha
+RANDOM
+ animal 
+OPTIONAL
+ mat
+FILE
+ ped1 
+FILE_POS
+ 1 2 3 0 0 
+SNP_FILE
+ snp1
+PED_DEPTH
+ 3
+#
+# Order of direct (d) and maternal (m) effects
+#     d  m
+#  d  *  *
+#  m  *  *
+#
+(CO)VARIANCES
+  0.65  0.1625
+ 0.1625 0.52
