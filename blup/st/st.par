@@ -1,0 +1,27 @@
+DATAFILE
+simdatafull.txt
+NUMBER_OF_TRAITS
+1
+NUMBER_OF_EFFECTS
+4
+OBSERVATION(S)
+9
+WEIGHT(S)
+4
+EFFECTS:
+6   155 cross
+7     2 cross
+8    11 cross
+1  4641 cross
+RANDOM_RESIDUAL VALUES
+ 80
+RANDOM_GROUP
+4
+RANDOM_TYPE
+add_animal
+FILE
+simpedfull.txt
+(CO)VARIANCES
+ 80
+OPTION EM-REML 10
+
