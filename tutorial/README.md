@@ -6,7 +6,7 @@ By Yutaka Masuda
 This repository has a dataset used in *Introduction to BLUPF90 suite programs*, a tutorial of BLUPF90 programs.
 The documentation is available at [the BLUPF90 official wiki](http://nce.ads.uga.edu/wiki/doku.php?id=documentation).
 
-The main dataset is in `examples` which has derived from the raw files in `rawfiles`.
+The main dataset is in `examples` which have derived from the raw files in `rawfiles`.
 
 - `examples`
    - `quick_tour` for *Quick tour of BLUPF90*
