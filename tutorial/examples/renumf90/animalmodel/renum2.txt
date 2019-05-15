@@ -1,0 +1,20 @@
+DATAFILE
+rawdata2.txt
+TRAITS
+5
+FIELDS_PASSED TO OUTPUT
+
+WEIGHT(S)
+
+RESIDUAL_VARIANCE
+2.0
+EFFECT          # 1 st effect
+2 cross alpha
+EFFECT          # 2 nd effect
+3 cross alpha
+RANDOM          ## treated as a random effect
+diagonal
+(CO)VARIANCES   ## its variance components
+1.0
+EFFECT          # 3 rd effect
+4 cov

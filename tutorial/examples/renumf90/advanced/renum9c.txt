@@ -1,0 +1,28 @@
+DATAFILE
+rawdata9.txt
+TRAITS
+5
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+1.0
+EFFECT          # 1st effect
+2 cross alpha
+EFFECT          # 2nd effect
+3 cross alpha
+EFFECT          # 3rd effect
+4 cov
+EFFECT          # 4th effect = animal
+1 cross alpha
+RANDOM
+animal
+FILE
+rawpedigree9c.txt
+FILE_POS        # positions of animal, sire, dam, 0, 0
+1 4 5 0 0
+UPG_TYPE
+in_pedigrees
+(CO)VARIANCES
+1.0

@@ -1,0 +1,19 @@
+DATAFILE
+rawdata1.txt
+TRAITS
+5
+FIELDS_PASSED TO OUTPUT
+
+WEIGHT(S)
+
+RESIDUAL_VARIANCE
+1.0
+EFFECT
+2 cross alpha   # 1 st effect
+EFFECT
+3 cross alpha   # 2 nd effect
+EFFECT
+4 cov           # 3 rd effect
+OPTION max_string_readline 2048
+OPTION alpha_size 40
+OPTION solv_method FSPAK

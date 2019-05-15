@@ -1,0 +1,28 @@
+DATAFILE
+rawdata5.txt
+TRAITS          # 2-trait model: put 2 positions
+5 6
+FIELDS_PASSED TO OUTPUT
+
+WEIGHT(S)
+
+RESIDUAL_VARIANCE
+2.0 1.0
+1.0 1.5
+EFFECT           # 1st effect fixed
+2 2 cross alpha
+EFFECT           # 2nd effect fixed
+3 3 cross alpha
+EFFECT           # 3rd effect fixed
+4 4 cov
+EFFECT           # 4th effect
+1 1 cross alpha
+RANDOM           ## treated as a random effect
+animal
+FILE             ## pedigree file
+rawpedigree5.txt
+FILE_POS         ## animal, sire and dam IDs, and two 0s
+1 2 3 0 0
+(CO)VARIANCES    ## its variance component
+ 0.50 -0.25
+-0.25  1.00

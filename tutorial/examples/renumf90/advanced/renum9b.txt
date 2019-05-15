@@ -1,0 +1,31 @@
+DATAFILE
+rawdata9.txt
+TRAITS
+5
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+1.0
+EFFECT          # 1st effect
+2 cross alpha
+EFFECT          # 2nd effect
+3 cross alpha
+EFFECT          # 3rd effect
+4 cov
+EFFECT          # 4th effect = animal
+1 cross alpha
+RANDOM
+animal
+OPTIONAL
+pe mat mpe
+FILE
+rawpedigree9.txt
+(CO)VARIANCES
+1.0 0.2
+0.2 0.3
+(CO)VARIANCES_PE
+1.5
+(CO)VARIANCES_MPE
+0.5

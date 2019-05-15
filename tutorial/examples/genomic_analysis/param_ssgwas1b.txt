@@ -1,0 +1,30 @@
+#
+# This is for POSTGSF90
+#
+DATAFILE
+renf90.dat
+NUMBER_OF_TRAITS
+              1
+NUMBER_OF_EFFECTS
+              2
+OBSERVATION(S)
+    1
+WEIGHT(S)
+
+EFFECTS:
+2           1 cross
+3       15800 cross
+RANDOM_RESIDUAL VALUES
+0.50000
+RANDOM_GROUP
+       2
+RANDOM_TYPE
+add_animal
+FILE
+renadd02.ped
+(CO)VARIANCES
+0.50000
+OPTION SNP_file marker.geno.clean
+OPTION readGInverse
+OPTION weightedG w
+OPTION chrinfo chrmap.txt

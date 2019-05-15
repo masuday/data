@@ -1,0 +1,28 @@
+DATAFILE
+rawdata4.txt
+TRAITS
+5
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+2.0
+EFFECT           # 1st effect fixed
+2 cross alpha
+EFFECT           # 2nd effect fixed
+3 cross alpha
+EFFECT           # 3rd effect fixed
+4 cov
+EFFECT           # 4th effect
+1 cross alpha
+RANDOM           ## treated as a random effect
+animal
+FILE             ## pedigree file
+rawpedigree4.txt
+FILE_POS         ## animal, sire and dam IDs with two 0s
+1 2 3 0 0
+SNP_FILE         ## SNP marker file
+snp4.txt
+(CO)VARIANCES    ## its variance component
+0.5

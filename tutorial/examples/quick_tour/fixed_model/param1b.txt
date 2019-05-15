@@ -1,0 +1,22 @@
+#
+# This is an example parameter file for a fixed effect model.
+# Solving method: FSPAK
+#
+DATAFILE
+data1.txt # write the name of data file here
+NUMBER_OF_TRAITS
+1 # single trait model
+NUMBER_OF_EFFECTS
+3 # A, S, b
+OBSERVATION(S)
+1
+WEIGHT(S)
+
+EFFECTS:   # y = A + S + b*x + e
+2 3 cross  # effect A
+3 2 cross  # effect S
+4 1 cov    # regression
+RANDOM_RESIDUAL VALUES # any values okay
+1.0
+# added options
+OPTION solv_method FSPAK

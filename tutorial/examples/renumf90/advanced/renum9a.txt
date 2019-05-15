@@ -1,0 +1,20 @@
+COMBINE
+6 2 3
+DATAFILE
+rawdata9.txt
+TRAITS
+5
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+1.0
+EFFECT          # 1st effect
+2 cross alpha
+EFFECT          # 2nd effect
+3 cross alpha
+EFFECT          # 3rd effect
+4 cov
+EFFECT          # interaction effect 1 x 2
+6 cross alpha

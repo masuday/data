@@ -1,0 +1,31 @@
+# BLUPF90 parameter file created by RENF90
+DATAFILE
+dataqc1.txt
+NUMBER_OF_TRAITS
+           1
+NUMBER_OF_EFFECTS
+           4
+OBSERVATION(S)
+    1
+WEIGHT(S)
+ 
+EFFECTS: POSITIONS_IN_DATAFILE NUMBER_OF_LEVELS TYPE_OF_EFFECT[EFFECT NESTED]
+  2         3 cross 
+  3         2 cross 
+  4 1 cov 
+  5        15 cross 
+RANDOM_RESIDUAL VALUES
+   2.0000    
+ RANDOM_GROUP
+     4
+ RANDOM_TYPE
+ add_animal
+ FILE
+pedigreeqc1.txt
+(CO)VARIANCES
+  0.50000    
+OPTION SNP_file snpqc1.txt snpqc1_XrefID.txt
+OPTION callrate 0.80
+OPTION thrStopCorAG 0.10
+OPTION outcallrate
+OPTION saveCleanSNPs

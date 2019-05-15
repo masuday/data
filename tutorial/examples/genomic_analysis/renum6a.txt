@@ -1,0 +1,23 @@
+DATAFILE
+rawdata6.txt
+TRAITS
+3
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+4 
+RESIDUAL_VARIANCE
+0.7
+EFFECT           # 1st effect fixed
+2 cross alpha
+EFFECT           # 2nd effect (animal)
+1 cross alpha
+RANDOM           ## additive effect without pedigree
+animal
+FILE             ## pedigree file
+rawpedigree6.txt
+SNP_FILE         ## SNP marker file
+snp6.txt
+(CO)VARIANCES    ## its variance component
+0.3
+OPTION TauOmega  1.00 0.00
