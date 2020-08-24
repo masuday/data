@@ -17,12 +17,13 @@ The files are saved in separate directories by model.
 
 - `fixed`: Fixed effect model
 - `animal`: Animal model; A-inverse without inbreeding (default)
-- `inb`: ANimal model; A-inverse with inbreeding
+- `inb`: Animal model; A-inverse with inbreeding
 - `upg`: Animal model including unknown parent groups
 - `random`: Mixed model with more random effects
 - `rep`: Repeatability model
 - `maternal`: Direct-maternal model
 - `rrm`: Random regression model
 - `mltdm`: Multiple-lactation random-regression test-day model
+- `sire.trick`: Sire model (just a trick because `RENUMF90` does not support this model yet.)
 - `ssGBLUP`: Single-step GBLUP
 - `options`: SOme other options in `RENUMF90`

@@ -1,0 +1,38 @@
+# parameter file for renumf90
+# sire model with 1 trait
+#
+# NOTE: This parameter file demonstrates a trick to support the sire model.
+# The resulting pedigree will not have maternal grand-sires (MGS). Also,
+# it will not support genetic groups for unknown sires.
+#
+# After running renumf90, do not forget to change the keyword in renf90.par
+# from "add_animal" to "add_sire" manually.
+#
+DATAFILE
+ data1s
+TRAITS
+ 4
+FIELDS_PASSED TO OUTPUT
+ 
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+  1.0
+EFFECT
+ 2 cross alpha
+EFFECT
+ 3 cross alpha
+EFFECT
+ 8 cov
+EFFECT
+ 9 cross alpha   # sire ID instead of animal ID
+RANDOM
+ animal 
+FILE
+ ped1s 
+FILE_POS
+ 1 2 3 0 0 
+PED_DEPTH
+ 3
+(CO)VARIANCES
+  0.65
