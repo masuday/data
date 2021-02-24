@@ -1,0 +1,27 @@
+DATAFILE
+ renf90sire.dat   # change the data file name
+NUMBER_OF_TRAITS
+           1
+NUMBER_OF_EFFECTS
+           5
+OBSERVATION(S)
+    1
+WEIGHT(S)
+ 
+EFFECTS: POSITIONS_IN_DATAFILE NUMBER_OF_LEVELS TYPE_OF_EFFECT[EFFECT NESTED]
+ 2         2 cross 
+ 3         4 cross 
+ 4 1 cov 
+ 7        15 cross   # change 5 to 7
+ 8         15 cross  # change 6 to 8
+RANDOM_RESIDUAL VALUES
+   1.0000    
+ RANDOM_GROUP
+     4     5
+ RANDOM_TYPE
+ add_sire        # CHANGE add_animal to add_sire
+ FILE
+renaddsire.ped   # change the pedigree-file name 
+(CO)VARIANCES
+  0.65000      0.16250    
+  0.16250      0.52000    
