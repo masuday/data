@@ -19,7 +19,7 @@ RANDOM_RESIDUAL VALUES
  RANDOM_GROUP
      4     5
  RANDOM_TYPE
- add_sire        # CHANGE add_animal to add_sire
+ add_sire        # change add_animal to add_sire
  FILE
 renaddsire.ped   # change the pedigree-file name 
 (CO)VARIANCES
