@@ -88,7 +88,7 @@ Finally, you can rewrite `renf90.par` to reflect the changes.
 Please check the following example.
 
 ```
-TAFILE
+DATAFILE
  renf90sire.dat   # change the data file name
 NUMBER_OF_TRAITS
            1
