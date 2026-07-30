@@ -23,5 +23,6 @@ FILE
 simped2.txt
 (CO)VARIANCES
 100
+OPTION method VCE
 OPTION hetres_pos 15 16 17
 OPTION hetres_pol 4.5 4.5 4.5
