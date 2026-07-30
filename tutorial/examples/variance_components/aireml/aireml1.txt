@@ -23,3 +23,5 @@ FILE
 simped.txt
 (CO)VARIANCES
 100
+OPTION method VCE
+OPTION se_covar_function h2 G_4_4_1_1/(G_4_4_1_1+R_1_1)
