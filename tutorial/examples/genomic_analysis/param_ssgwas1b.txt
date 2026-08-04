@@ -27,4 +27,4 @@ renadd02.ped
 OPTION SNP_file marker.geno.clean
 OPTION readGInverse
 OPTION weightedG w
-OPTION chrinfo chrmap.txt
+OPTION map_file chrmap.txt
